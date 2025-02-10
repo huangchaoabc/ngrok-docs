@@ -5,10 +5,10 @@
 ```json
 {
 	"backends": {},
-	"created_at": "2025-01-29T21:10:13Z",
+	"created_at": "2025-02-10T10:07:19Z",
 	"description": "acme weighted",
-	"id": "bkdwd_2sJsSnxOhpJ4angJdHVSuT16LEY",
+	"id": "bkdwd_2sqTKFFWVoHc0mOcA4sY4a0335D",
 	"metadata": "{\"environment\": \"production\"}",
-	"uri": "https://api.ngrok.com/backends/weighted/bkdwd_2sJsSnxOhpJ4angJdHVSuT16LEY"
+	"uri": "https://api.ngrok.com/backends/weighted/bkdwd_2sqTKFFWVoHc0mOcA4sY4a0335D"
 }
 ```

@@ -9689,6 +9689,14 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_8014" href="/docs/errors/err_ngrok_8014">ERR_NGROK_8014</a>
+      </td>
+      <td class="pre-wrapped">
+        Your agent has been blocked from connecting to ngrok because it has been suspected of violating our Acceptable Use policy: <a href="https://ngrok.com/tos">https://ngrok.com/tos</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_9000" href="/docs/errors/err_ngrok_9000">ERR_NGROK_9000</a>
       </td>
       <td class="pre-wrapped">
