@@ -15,18 +15,18 @@ The value does not have to be `>=0.5`. You can adjust the value to split the tra
 	config={{
 		on_http_request: [
 			{
-                expressions: ["rand.double() <= 0.5"],
+				expressions: ["rand.double() <= 0.5"],
 				actions: [
 					{
 						type: "forward-internal",
 						config: {
-							url: 'https://a.internal',
+							url: "https://a.internal",
 						},
 					},
 					{
 						type: "forward-internal",
 						config: {
-							url: 'https://b.internal',
+							url: "https://b.internal",
 						},
 					},
 				],
@@ -41,13 +41,13 @@ You can also route B traffic to a separate route.
 	config={{
 		on_http_request: [
 			{
-                expressions: ["rand.double() <= 0.5"],
+				expressions: ["rand.double() <= 0.5"],
 				actions: [
 					{
 						type: "url-rewrite",
 						config: {
 							from: "/path/to/test",
-                            to: "/path/to/test-b"
+							to: "/path/to/test-b",
 						},
 					},
 				],
@@ -57,4 +57,7 @@ You can also route B traffic to a separate route.
 />
 
 See [URL Rewrite Example](/docs/traffic-policy/examples/url-rewrites) for another example using rewrites.
+
+```
+
 ```
